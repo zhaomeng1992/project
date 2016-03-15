@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	  	.btn input{
+	  		background-color: white;
+	  	}
+
+	</style>
+</head>
+<body>
+	<img  id="pic" src="image/1.jpg">
+	<div class="btn">
+		<input class="yi" type="button" value="1">
+		<input class="er" type="button" value="2">
+		<input class="san" type="button" value="3">
+		<input class="si" type="button" value="4">
+	</div>
+
+
+
+
+
+
+<script src="jquery-1.11.1.js"></script>
+<script type="text/javascript">
+		   $(".btn input").click(function(){
+		   		var ind = $(this).index();
+		   		var num = ind+1;
+		   		var src ="image/"+num+".jpg";
+		   $("#pic").attr("src",src);
+		   $(this).css("background-color","red");
+		   $(this).siblings().css("background-color","white");
+
+
+
+
+
+
+		   })
+
+
+
+
+		 // $(".yi").click(function(){
+		 // 	$("#pic").attr("src","image/1.jpg");
+		 // });
+		 // $(".er").click(function(){
+		 // 	$("#pic").attr("src","image/2.jpg");
+		 // });
+		 // $(".san").click(function(){
+		 // 	$("#pic").attr("src","image/3.jpg");
+		 // });
+			// $(".si").click(function(){
+		 // 	$("#pic").attr("src","image/4.jpg");
+		 // });
+
+
+
+
+
+
+</script>
+</body>
+</html>

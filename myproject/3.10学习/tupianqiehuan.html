@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片切换</title>
+	<style type="text/css">
+         *{
+         	margin: 0px;
+         	padding: 0px;
+         }
+	     #list li{
+	     	list-style: none;
+	     	float: left;
+	     	width: 20px;
+	     	height: 20px;
+	     	border: 1px solid #00f;
+	     	text-align: center;
+	     	line-height: 20px;
+	     	cursor: pointer;
+	     }
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<img id="yi" src="image/1.jpg">
+	<ul id="list">
+		<li id="list1">1</li>
+		<li id="list2">2</li>
+		<li id="list3">3</li>
+		<li id="list4">4</li>
+	</ul>
+
+
+
+
+
+	<script src="jquery-1.11.1.js"></script>
+    <script type="text/javascript">
+        $("#list1").click(function(){
+        $("#yi").attr("src","image/1.jpg");
+        });
+
+        $("#list2").click(function(){
+        $("#yi").attr("src","image/2.jpg");
+        });
+
+        $("#list3").click(function(){
+        $("#yi").attr("src","image/3.jpg");
+        });
+
+        $("#list4").click(function(){
+        $("#yi").attr("src","image/4.jpg");
+        });
+
+
+
+
+    </script>
+
+</body>
+</html>

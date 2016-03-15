@@ -1,0 +1,11 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+#biaoqian a{
+	border: 1px solid #f00;
+	display: block;
+    width: 30px;
+	height: 30px;
+
+}

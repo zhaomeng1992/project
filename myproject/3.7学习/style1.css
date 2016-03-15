@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#top{
+	background-color: #cccccc;
+	height: 31px;
+}
+#yi{
+	float:left;
+	padding-left: 149px;
+	padding-top: 10px;
+	font-size: 10px;
+}
+#er{
+	float: left;
+	padding-left: 654px;
+	color: #00f;
+	padding-top: 10px;
+	font-size: 10px;
+}
+#zhongjian{
+	background-color: #00f;
+	height: 70px;
+}
